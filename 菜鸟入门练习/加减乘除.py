@@ -1,0 +1,8 @@
+a=int(input("输入第一个整数："))
+b=int(input("输入第二个整数："))
+print(f"和={a+b}")
+print(f"差={a-b}")
+print(f"积={a*b}")
+print(f"商={a/b:.2f}")
+print(f'整除={a//b}')
+print(f'余数={a%b}')

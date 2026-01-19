@@ -1,0 +1,9 @@
+username = input("用户名：")
+password = input("密码：")
+if username=='zwx':
+    if password=='0208':
+        print("登录成功")
+    else:
+        print("密码错误")
+else:
+    print("用户名不存在")
